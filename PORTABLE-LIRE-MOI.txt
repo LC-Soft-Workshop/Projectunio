@@ -1,0 +1,47 @@
+PROJECTUNIO — VERSION PORTABLE WINDOWS 11 (64 BITS)
+
+Copier le dossier Projectunio-Portable-Windows-x64 entier, puis double-cliquer
+sur Projectunio.exe (icône P). Lancer.cmd reste utilisable.
+Python/Tkinter, FFmpeg et FFprobe sont inclus ; garder assets, runtime
+et les licences. Fermer l’application avant de mettre à jour ses fichiers.
+
+IMAGES DANS LA TIMELINE
+Déposer un JPEG ou un PNG sur une piste vidéo : durée initiale de 5 secondes.
+Glisser les bords du clip ou double-cliquer pour saisir sa durée exacte.
+Cadrage, zoom, fondus et panoramique sont aussi disponibles pour les images.
+
+BARRE D’OUTILS
+Survoler une icône pour afficher son nom. Les modes et options activés
+sont mis en évidence. La loupe reste dans le menu Mapping.
+Pendant le dessin d’une zone, clic droit ou Échap annule le dessin.
+
+PROJECTEUR
+Brancher HDMI, choisir Windows + P > Étendre et sélectionner l’écran.
+Mire HDMI sert à calibrer ; Image HDMI montre l’image arrêtée du montage.
+Lecture et export > Projeter le montage en HDMI affiche la lecture animée,
+avec les commandes sur le portable. Échap sur la sortie ferme la projection.
+
+PROJETS ET TRANSFERT
+Le bouton + après les onglets crée un nouveau projet.
+Projets > Sauvegardes automatiques permet de régler la fréquence et de
+récupérer les versions conservées. Après un plantage, un bandeau propose
+la récupération au démarrage. Fréquence initiale : 15 secondes.
+Projets > Rassembler le projet et ses médias crée un nouveau dossier complet.
+Copier tout ce dossier ; l’application portable est à copier séparément.
+Ouvrir ensuite installation.projectunio.json depuis la copie transférée.
+Lecture et export > Retrouver les médias dans un dossier permet une recherche
+groupée. Les doublons demandent un choix explicite avant application.
+
+CALIBRATION ET SON
+Mapping > Versions de calibration conserve et compare des réglages nommés.
+Audio > Analyser le niveau sonore propose une réduction annulable des volumes.
+À l’export, une réduction peut aussi être appliquée uniquement au MP4 produit.
+
+Le dossier application doit être accessible en écriture pour la récupération,
+les journaux et le cache. Le cache vidéo est limité à 2 Go et peut être vidé
+via Lecture et export > Cache des rendus, sans toucher aux médias.
+Prévoir aussi de l’espace temporaire sur le disque Windows.
+
+Lire README.md pour le mode d’emploi complet, le panoramique, la lecture en
+boucle et les essais matériels HDMI/USB. Quitter normalement l’application
+avant d’éjecter une clé USB. Une copie sur disque local est plus rapide.
