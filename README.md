@@ -2,7 +2,7 @@
 
 **Windows x64 · ZIP portable · Sans installeur**
 
-[Télécharger la version portable](https://github.com/LC-Soft-Workshop/Projectunio/releases/latest) · [Historique](CHANGELOG.md) · [Développement](CONTRIBUTING.md) · [Composants tiers](THIRD_PARTY_NOTICES.md)
+[Télécharger la version portable](https://github.com/LC-Soft-Workshop/Projectunio/releases/latest) · [Wiki et guide utilisateur](https://github.com/LC-Soft-Workshop/Projectunio/wiki) · [Historique](CHANGELOG.md) · [Développement](CONTRIBUTING.md) · [Composants tiers](THIRD_PARTY_NOTICES.md)
 
 Pour utiliser le logiciel, télécharger le **ZIP portable** dans les versions GitHub, l’extraire entièrement, puis ouvrir **Projectunio.exe**. Les archives « Source code » proposées automatiquement par GitHub contiennent les sources de développement et pas le runtime portable.
 
@@ -107,7 +107,7 @@ Avec l’outil **Position vidéo**, glisser dans une zone déplace le contenu sa
 
 ## Vidéo panoramique sur plusieurs vantaux
 
-Importer une vidéo, sélectionner son clip puis cliquer sur **Panoramique…** au-dessus de la timeline, ou **Clic droit → Vidéo panoramique…**.
+Importer une vidéo, sélectionner son clip puis cliquer sur l’icône **Panoramique** dans la barre d’outils au-dessus du mapping, ou **Clic droit → Vidéo panoramique…**.
 
 Les zones sont proposées selon leur position sur le mapping. Ctrl+clic choisit les zones. Le mode **Respecter la disposition du mapping (écarts automatiques)** conserve leur position horizontale et verticale : une troisième zone au-dessus de la deuxième prélève le haut de l’image commune, sans devenir un troisième segment à droite. Le schéma représente les quadrilatères à leurs positions réelles. L’ordre de la liste ne déplace pas les zones dans ce mode.
 
@@ -115,7 +115,7 @@ L’image commune occupe le rectangle englobant les zones sélectionnées. Chaqu
 
 Le mode manuel conserve l’ancienne bande horizontale : **Avant / Après** change l’ordre des segments et **Espace entre zones** règle un écart commun, de 0 à 100 % de la largeur moyenne des zones choisies. Ce mode est distinct de la disposition 2D. Les anciens panoramiques manuels gardent leurs réglages ; cocher le mode automatique pour utiliser leur disposition spatiale. Les coordonnées restent celles de l’image projetée, sans mesure physique de la scène ; vérifier le cadrage sur les surfaces réelles.
 
-**Source / Répartition**, au-dessus de la timeline et dans Lecture et export, ouvre deux vues de la même image arrêtée : la source cadrée avant les fondus, avec les portions colorées attribuées aux zones, et le résultat après perspective et masques. La fenêtre suit le curseur, le clip actif et le mapping. Elle n’émet aucun son ; les anciens calculs sont abandonnés si vous choisissez un autre instant.
+**Source / Répartition**, dans la barre d’outils au-dessus du mapping et dans Lecture et export, ouvre deux vues de la même image arrêtée : la source cadrée avant les fondus, avec les portions colorées attribuées aux zones, et le résultat après perspective et masques. La fenêtre suit le curseur, le clip actif et le mapping. Elle n’émet aucun son ; les anciens calculs sont abandonnés si vous choisissez un autre instant.
 
 Le panoramique reste un seul clip, visible sur chaque piste concernée avec le signe ↔. Déplacer, couper, raccourcir, dupliquer ou supprimer une partie agit sur ce même clip. Durée, points de coupe, fondus, cadrage et volume sont communs ; le son est joué une seule fois. Muet/Solo suit la première zone dans l’ordre choisi.
 
